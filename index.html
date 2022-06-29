@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1 class="text-center">Lista de tareas</h1>
+    <div class="row justify-content-center">
+        <div class="col-4">
+            <div class="form-group">
+                <label for="">Buscar Todo</label>
+                <input type="text" class="form-control" name="" id="search-input" aria-describedby="helpId"
+                    placeholder="Ingresa la consulta">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <form action="" class="p-4" id="form-todo">
+                <div class="form-group">
+                    <label for="">Ingresa la tarea:</label>
+                    <input type="text" class="form-control" name="" id="todo-input" aria-describedby="helpId"
+                        placeholder="Escribe la tarea">
+                </div>
+                <button type="submit" name="" id="add-todo" class="btn btn-primary btn-lg btn-block">Agregar
+                    Tarea</button>
+            </form>
+        </div>
+
+        <div class="col-6 ">
+            <!-- lista de tareas -->
+            <div class="list-group" id="list-todo">
+                <!-- tareas -->
+
+            </div>
+        </div>
+
+
+    </div>
+    <script src="/scripts/index.js"></script>
+</body>
+
+</html>
